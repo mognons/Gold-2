@@ -48,11 +48,27 @@ body {
 </head>
 <body> 
 <!-- 	<div class="site-container"> -->
-<header><tiles:insertAttribute  name="header" /></header>
+<header>	
+	<div class="main-header" style="position: relative">
+		<table border="0" width="100%">
+			<tr style="vertical-align:bottom">
+				<td width="25%" ><a href="home.action"><img
+						src="images/logo-gold.png" height="67"
+						width="160"></a></td>
+				<td width="40%">
+				</td>
+				<td align="right"><a href="http://www.regione.veneto.it" target="_new"><img
+						src="images/stemmacolore.png" height="65"
+						width="90"></a></td>
+			</tr>
+		</table>
+	</div>
+</header>
 		<div><tiles:insertAttribute name="body" /></div>
 <!-- 	</div> -->
 <footer id="colophon" >
 		<div class="main-footer">&copy;2015 - <a href="http://www.acliverona.it" target="_new">ACLI Verona</a> - Developed by  
 		<a href="http://www.5020.it" target="_new">5020-cinquantaventi</a></div>
-</footer></body>
+</footer>
+</body>
 </html>

@@ -81,7 +81,7 @@
         openChildAsAccordion: true,
 		toolbarSearch:true,
 		toolbarReset:true,
-        jqueryuiTheme: false,
+        jqueryuiTheme: true,
         actions: {
             listAction: 'listAssistitiAction',
             createAction: 'createAssistitiAction',
