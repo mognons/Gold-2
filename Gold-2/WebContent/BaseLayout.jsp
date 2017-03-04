@@ -8,8 +8,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
 <link rel="stylesheet" type="text/css" href="css/ddm-styles.css" media="all" />
 
-<link href="css/humanity/jquery-ui.css" rel="stylesheet" type="text/css" />
-<link href="css/humanity/theme.css" rel="stylesheet" type="text/css" />
+<link href="css/smoothness/jquery-ui.css" rel="stylesheet" type="text/css" />
+<link href="css/smoothness/theme.css" rel="stylesheet" type="text/css" />
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <link href="css/validationEngine.jquery.css" rel="stylesheet" type="text/css" />
 <link href="css/jquery.qtip.css" rel="stylesheet" type="text/css" />

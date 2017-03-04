@@ -7,16 +7,13 @@
 	<definition name="baseLayout" template="/BaseLayout.jsp">
 		<put-attribute name="title" value="" />
 		<put-attribute name="header" value="/header.action" />
-		<put-attribute name="menu" value="/menu.action" />
 		<put-attribute name="body" value="" />
-		<put-attribute name="footer" value="/footer.jsp" />
 	</definition>
 	
 	<definition name="loginLayout" template="/LoginLayout.jsp">
-		<put-attribute name="title" value="ReteTalenti: Accesso" />
-		<put-attribute name="header" value="/header.jsp" />
+		<put-attribute name="title" value="Gold - Accesso" />
+		<put-attribute name="header" value="/header.action" />
 		<put-attribute name="body" value="" />
-		<put-attribute name="footer" value="/footer.jsp" />
 	</definition>
 	 
 	<definition name="/error.tiles" extends="loginLayout">
